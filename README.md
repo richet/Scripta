@@ -9,7 +9,7 @@ Then you can do things like this to include both local and CDN versions of jQuer
 <%=Html.Scripta("jquery").Js()%>
 
 
-##To install & configure##
+##To install & configure
 
 	Drop the Scripta.cs into your .Net MVC or class library project
 	
@@ -53,7 +53,7 @@ Then you can do things like this to include both local and CDN versions of jQuer
 	   </scripta>		
 	</configuration>	
 	
-##Scripta in action##
+##Scripta in action
 
 	Scripta is implemented as an extension to HtmlHelper.
 
@@ -71,7 +71,7 @@ Then you can do things like this to include both local and CDN versions of jQuer
 		<%= Html.Scripta("my-page").Js()%>
 	</body>
 	
-##Advanced configuration##
+##Advanced configuration
 
 	You can add the *settings* to enable extra config options
 	
@@ -96,7 +96,7 @@ Then you can do things like this to include both local and CDN versions of jQuer
 	            </prod>
 	         </bundle>
 
-##Keep it tidy##			 
+##Keep it tidy			 
 	It's recommened to put the scripts section in a separate config file. This keeps your web.config
 	clean and also makes it easier if you have multiple web.config files for different deployments
 	but only want to maintain 1 version of your Scripta config.
