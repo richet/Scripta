@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*!
+ * Scripta
+ * https://github.com/richet/Scripta
+ *
+ * Copyright 2011, Rich Chetwynd
+ * Released under the MIT Licenses.
+ *
+ * Date: 2011-03-01
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
